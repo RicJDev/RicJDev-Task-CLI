@@ -1,0 +1,33 @@
+{
+  "name": "ricjdev-task-manager-cli",
+  "version": "1.0.0",
+  "description": "A little cli for learning backend stuff",
+  "main": "index.js",
+  "bin": {
+    "task-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@eslint/js": "9.20.0",
+    "@types/node": "22.13.4",
+    "eslint": "9.20.1",
+    "globals": "15.15.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3",
+    "typescript-eslint": "8.24.1",
+    "vitest": "^3.0.6"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "picocolors": "^1.1.1",
+    "temporal-polyfill": "^0.2.5"
+  }
+}
