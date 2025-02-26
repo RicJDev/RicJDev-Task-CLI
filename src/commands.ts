@@ -1,4 +1,5 @@
-import { Task, TASK_RULES, TaskStatus } from './Task'
+import { Task } from './Task'
+import { TaskStatus, TASK_RULES } from './constants'
 import { TaskFileManager } from './TaskFileManager'
 import { displayList } from './utils/displayList'
 
