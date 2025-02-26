@@ -3,7 +3,8 @@
 import * as readline from 'readline/promises'
 
 import { Command } from 'commander'
-import { Task, TaskStatus, TASK_STATUS } from './Task'
+import { Task } from './Task'
+import { TASK_STATUS, TaskStatus } from './constants'
 import { addTask, updateTask, deleteTask, deleteAllTask, markTaskStatus, listTask } from './commands'
 
 const program = new Command('task-cli')
