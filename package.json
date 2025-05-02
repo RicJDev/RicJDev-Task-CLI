@@ -27,7 +27,6 @@
   },
   "dependencies": {
     "commander": "^13.1.0",
-    "picocolors": "^1.1.1",
-    "temporal-polyfill": "^0.2.5"
+    "picocolors": "^1.1.1"
   }
 }
