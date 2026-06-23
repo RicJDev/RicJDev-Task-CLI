@@ -1,0 +1,15 @@
+set quiet
+
+cc := "g++"
+src := "src/*.cpp"
+target := "build/app"
+
+build:
+    mkdir -p build
+    {{cc}} -g -Wall -Wextra {{src}} -o {{target}} -lsqlite3
+
+clean:
+    rm -rf build
+
+run: build
+    ./{{target}}
